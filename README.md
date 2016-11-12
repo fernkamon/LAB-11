@@ -24,6 +24,10 @@
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-2.png">
 </p>
 
+ผลลัพธ์
+
+![](https://github.com/fernkamon/LAB-11/blob/master/imgs/2.JPG)
+
 ### การระบายสีด้วย TextureBrush
 * แก้ไข code ต่อไปนี้ในฟังก์ชัน ```private void Form1_Paint(object sender, PaintEventArgs e)```
   <p align = "center">
