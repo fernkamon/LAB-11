@@ -88,3 +88,45 @@
 <p align = "center">
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-9.png">
 </p>
+
+![](https://github.com/fernkamon/LAB-11/blob/master/imgs/7.JPG)
+ 
+ Code
+ 
+ ```
+ using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Drawing.Drawing2D;
+namespace LAB11_1
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+       
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.AddEllipse(panel3.ClientRectangle);
+            PathGradientBrush br = new PathGradientBrush(path);
+            br.CenterPoint = new PointF(panel3.ClientRectangle.Width / 1,
+                panel3.ClientRectangle.Height / 10);
+            br.CenterColor = Color.White;
+            br.SurroundColors = new Color[] { Color.Black };
+            e.Graphics.FillPath(br, path);
+        }
+    }
+}
+
+ ```
+
