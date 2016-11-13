@@ -79,6 +79,9 @@
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-8.png">
 </p>
 
+ผลลัพธ์
+
+![](https://github.com/fernkamon/LAB-11/blob/master/imgs/6.JPG)
 
 ###แบบทดสอบ 
 ให้เลื่อนจุดศูนย์กลางและปรับเปลี่ยนสี ให้ได้รูปดังนี้
