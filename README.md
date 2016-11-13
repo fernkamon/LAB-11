@@ -51,6 +51,10 @@
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-5.png">
 </p> 
 
+ผลลัพธ์
+
+![](https://github.com/fernkamon/LAB-11/blob/master/imgs/4.JPG)
+
 * แก้ไข code ต่อไปนี้ในฟังก์ชัน ```private void palen2_Paint(object sender, PaintEventArgs e)```
    <p align = "center">
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-6.png">
